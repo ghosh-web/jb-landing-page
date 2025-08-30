@@ -199,7 +199,7 @@ font-weight: 500;
 
 /* Mobile (767px to 576px) */
 @media (max-width: 767px) {
-    .benifits h2{
+    /* .benifits h2{
     font-size:26px ;
   }
 .benifits h2 span{
@@ -220,7 +220,7 @@ font-weight: 500;
      bottom: 30%;
      left: 10%;
      transform: scaleX(1.5);
-}
+} */
   /* .benifits h3 {
     font-size: 24px;
   } */
@@ -238,7 +238,7 @@ font-weight: 500;
 
 /* Extra Small (≤575px) */
 @media (max-width: 575px) {
-   .benifits h2{
+   /* .benifits h2{
     font-size:20px ;
   }
   .benifits h2 span{
@@ -259,7 +259,7 @@ font-weight: 500;
      bottom: 30%;
      left: 10%;
      transform: scaleX(1.5);
-}
+} */
   
   .box {
     padding: 15px;
@@ -271,7 +271,7 @@ font-weight: 500;
     font-size: 13px;
   }
 }
-@media (max-width: 497px){
+/* @media (max-width: 497px){
      .benifits h2{
     font-size:16px ;
   }
@@ -318,7 +318,7 @@ font-weight: 500;
      left: 10%;
      transform: scaleX(1.5);
 }
-}
+} */
 
 /* billing start */
 
