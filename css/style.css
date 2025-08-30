@@ -305,13 +305,13 @@ font-weight: 500;
       font-family: "Gloria Hallelujah", cursive;
     font-weight: 500;
     position: relative;
-    padding-bottom: 8px;
+    padding-bottom: 14px;
 }
 .benifits h2 span:after {
   content: '';
   position: absolute;
   width: 70%;
-  height: 6px;
+  height: 5px;
   border-bottom: 4px solid var(--purple);
   border-radius: 50%;
      bottom: 30%;
