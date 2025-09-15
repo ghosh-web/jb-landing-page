@@ -13,6 +13,19 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+</style>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <!-- font awsome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css">
@@ -24,57 +37,82 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css">
 
+    <!-- flaticon -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css" 
+    integrity="sha512-6f7HT84a/AplPkpSRSKWqbseRTG4aRrhadjZezYQ0oVk/B+nm/US5KzQkyyOyh0Mn9cyDdChRdS9qaxJRHayww==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Document</title>
 </head>
 
 <body>
     <!-- NAVBAR START -->
     <header>
+      
         <nav class="navbar navbar-expand-xl navbar-custom d-flex">
-            <div class="container-fluid">
-                <!-- Logo Section -->
-                <a class="navbar-brand d-flex align-items-center" href="#">
-                    JB</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Profile Icon -->
-                <div class="book-btn">
-                    <a href="#">Book a Demo</a>
+  <div class="container-fluid">
+    <!-- Logo Section -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      JB
+    </a>
 
-                </div>
-            </div>
-            </div>
-        </nav>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Profile Icon -->
+    <div class="book-btn">
+      <a href="#">Book a Demo</a>
+    </div>
+  </div>
+</nav>
     </header>
     <main>
         <!-- hero start -->
-        <section class="hero">
-            <div class="banner pt-1">
-                <h1 class="text-center"><span class="purple">All your business on one </span> <br>
-                    <span class="beige">platform.Simple, </span><br><span class="purple">efficient, yet
-                        affordable!</span>
-                </h1>
-                <div class="banner-button text-center py-5">
-                    <a href="#">Discover Our Plans</a>
-                </div>
-            </div>
-        </section>
-        <!-- hero end -->
-        
-        <section class="erp">
-            <div class="container-fluid">
+          <section class="hero-section">
+   <h1 class="hero-title">
+   Manage your entire business on <span class="highlight-yellow">a single platform.</span>
+</h1>
+<p class="hero-subtitle">
+   Powerful, seamless, and <span>cost-effective!</span>
+</p>
+    <!-- Buttons  -->
+    <div class="mt-4">
+    <a href="#" class="btn btn-custom btn-dark me-3">Join Now</a>
+    <div class="btn-group">
+      <button type="button" class="btn btn-light btn-custom dropdown-toggle" 
+              data-bs-toggle="dropdown" aria-expanded="false">
+        Resources
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Case Studies</a></li>
+        <li><a class="dropdown-item" href="#">Whitepapers</a></li>
+      </ul>
+    </div>
+  </div>
+    <!-- Price Tag with Arrow -->
+   <div class="price-tag">
+  499.00 Rs / month <br> Starter Plan
+  <span class="arrow">➝</span>
+</div>
+
+     <div class="container-fluid">
                 <div class="erp-pic text-center">
                     <img src="./image/ig-erp-dashboard.webp" alt="" class="erp-dashboard r" srcset="">
                 </div>
             </div>
 
-        </section>
+  </section>
+
+  <section class="erp">
+           
+        </section>  
+        <!-- hero end -->
 <!-- benifits start-->
 <section class="benifits section_padding">
-<div class="container">
+<div class="container-fluid">
     <h2 class="text-center">Ways Deskera <span> drives growth for </span> your business</h2>
 <div class="row">
 <div class="col-12 col-md-3 ">
@@ -93,6 +131,7 @@
 <span class="ps-3 pb-3">Increase in successful project deliveries</span>
 </div>
 </div>
+
 </div>
 </section>
 <!-- billing start -->
@@ -111,20 +150,1130 @@
         </section> 
         <!-- billing end -->
 <!-- creat deskera erp -->
- <section class="deskera section_padding">
-<div class="container-fluid">
-<h3>Why Choose Deskera ERP</h3>
-<div class="row">
-<div class="col-12 col-md-4">
-    <div class="desk">
+ <section class="deskera-erp section_padding">
+<div class="container-fluid ">
+<h3 class="text-center deskera">Why Choose <span>Deskera ERP</span></h3>
+    <div class="row g-4 py-5 ">
+      
+      <!-- Accounting -->
+      <div class="col-md-4">
+        <div class="feature-card h-100 text-center">
+          <div class="feature-icon text-primary"><img src="./image/accounting-calculate-calculation-svgrepo-com 1.png" alt=""></div>
+          <h5 class="fw-bold">Accounting</h5>
+          <p>Track transactions, create invoices, generate reports, monitor accounts receivable.</p>
+            <a href="#" class="explore">Explore</a>
+        </div>
+      </div>
+
+      <!-- Financial Management -->
+      <div class="col-md-4">
+        <div class="feature-card h-100 text-center ">
+          <div class="feature-icon text-warning "><img src="./image/financial-app-svgrepo-com 1.png" alt=""></div>
+          <h5 class="fw-bold">Financial Management</h5>
+          <p>Manage financial processes like budgeting and forecasting, bank reconciliation.</p>
+            <a href="#" class="explore">Explore</a>
+        </div>
+      </div>
+
+      <!-- Order Management -->
+      <div class="col-md-4">
+        <div class="feature-card h-100 text-center">
+          <div class="feature-icon text-success "><img src="./image/shopping-cart-14-svgrepo-com 1.png" alt=""></div>
+          <h5 class="fw-bold">Order Management</h5>
+          <p>Manage expenses, streamline payroll, and reconcile bank statements.</p>
+            <a href="#" class="explore">Explore</a>
+        </div>
+      </div>
 
     </div>
-</div>
+   <div class="row g-4 py-5">
+      
+      <!-- procurement -->
+      <div class="col-md-4">
+        <div class="feature-card h-100 text-center">
+          <div class="feature-icon text-primary"><img src="./image/contract-management-line-svgrepo-com 1.png" alt=""></div>
+          <h5 class="fw-bold">Procurement</h5>
+          <p>Handle customer orders seamlessly across online and offline channels, including order tracking and fulfillment.</p>
+          
+         <a href="#" class="explore">Explore</a>
+        </div>
+      </div>
+
+      <!-- Inventory Management -->
+      <div class="col-md-4">
+        <div class="feature-card h-100 text-center">
+          <div class="feature-icon text-warning"><img src="./image/warehouse-stock-svgrepo-com 1.png" alt=""></div>
+          <h5 class="fw-bold">Inventory Management</h5>
+          <p>Automate purchase orders to avoid stockouts and overstocking</p>
+            <a href="#" class="explore">Explore</a>
+        </div>
+      </div>
+
+      <!-- warehouse Management -->
+      <div class="col-md-4">
+        <div class="feature-card h-100 text-center">
+          <div class="feature-icon text-success "><img src="./image/warehouse-inventory-stock-merchandise-svgrepo-com 1.png" alt=""></div>
+          <h5 class="fw-bold">Warehouse Management</h5>
+          <p>Streamlined purchase order creation and supplier management</p>
+            <a href="#" class="explore">Explore</a>
+        </div>
+      </div>
+
+    </div>
+     <div class="row g-4 ">
+      
+      <!-- project -->
+      <div class="col-md-4">
+        <div class="feature-card h-100 text-center">
+          <div class="feature-icon text-primary"><img src="./image/accounting-woman-upper-body-svgrepo-com 1.png" alt=""></div>
+          <h5 class="fw-bold">Project Accounting</h5>
+          <p>capture,measure,and report team productivity,task progress,and project milestones.</p>
+            <a href="#" class="explore">Explore</a>
+        </div>
+      </div>
+
+      <!-- customer Relationship management -->
+      <div class="col-md-4">
+        <div class="feature-card h-100 text-center">
+          <div class="feature-icon text-warning"><img src="./image/illustration-of-handshake-svgrepo-com 1.png" alt=""></div>
+          <h5 class="fw-bold">Customer Relationship Management</h5>
+          <p>automate follow-ups,forecast sales revenue,improve conversion rates.</p>
+            <a href="#" class="explore">Explore</a>
+        </div>
+      </div>
+
+      <!-- HR management -->
+      <div class="col-md-4">
+        <div class="feature-card h-100 text-center">
+          <div class="feature-icon text-success "><img src="./image/human-resources-for-business-svgrepo-com 1.png" alt=""></div>
+          <h5 class="fw-bold">Hr Management</h5>
+          <p>monitor workforce productivity and generate insightful HR reports.</p>
+            <a href="#" class="explore">Explore</a>
+        </div>
+      </div>
+
+    </div>
+   <div class="row g-4 py-5 justify-content-center">
+      
+  <!-- Procurement -->
+  <div class="col-md-4">
+    <div class="feature-card h-100 text-center">
+      <div class="feature-icon text-primary">
+        <img src="./image/customer-service 1.png" alt="">
+      </div>
+      <h5 class="fw-bold">Customer Service</h5>
+      <p>Deliver seamless support across online and offline channels, ensuring quick issue resolution, real-time assistance, and customer satisfaction.</p>
+      <a href="#" class="explore">Explore</a>
+    </div>
+  </div>
+
+  <!-- Inventory Management -->
+  <div class="col-md-4">
+    <div class="feature-card h-100 text-center">
+      <div class="feature-icon text-warning">
+        <img src="./image/business (1) 1.png" alt="">
+      </div>
+      <h5 class="fw-bold">Business Intelligence</h5>
+      <p>Leverage real-time data insights to make informed decisions, identify trends, and drive business growth.</p>
+      <a href="#" class="explore">Explore</a>
+    </div>
+  </div>
+
 </div>
 </div>
  </section>
+<!-- desk era end -->
+<!-- why choose start -->
+<section class="why ">
+<div class="container-fluid">
+<div>
+<h4 class="px-3">Welcome To <span class="jb">JB ERP Solutions </span> – Helping You Run Your Business Smoothly!</h4>
+<p class="pb-5 px-3">Enterprise Resource Planning (ERP) is a powerful system designed to streamline and 
+  integrate critical business functions for companies, especially in manufacturing and service industries. 
+  These functions include bookkeeping, financial reporting, sales, customer service, payroll, recruitment,
+   project management, and inventory management.
+
+<strong>At JB ERP Solutions </strong>, we specialize in building ERP applications that empower businesses to work smarter 
+and more efficiently. Our cloud-based platform is user-friendly, scalable, and quick to set up—making 
+digital transformation effortless.</p>
+
+<h5 class="px-3">Why Choose JB ERP Solutions?</h5>
+
+<p class="px-3">We provide top ERP software solutions in Bangalore and across India, offering dynamic ERP troubleshooting, custom ERP development, and tailored IT solutions.
+
+Our comprehensive suite of ERP features includes:-
+
+<strong>Cloud ERP,
+
+Purchase Management,
+
+Sales & Billing Management,
+
+Customer Management,
+
+Vendor Management,
+
+Product Management,
+
+Accounting Software,
+
+Item Master Management,
+
+Stock Management,
+
+Checklist Management,
+
+Inventory Reports,
+
+Financial Reports.</strong></p>
+</div>
+</div>
+</section>
+<!-- why choose end -->
+
+<!-- accounting start-->
+<section class="accounting section_padding">
+<div class="container-fluid">
+<div class="row g-4 account-row align-items-center justify-content-center">
+
+
+<div class="col-md-6">
+<div class="account-card text-center">
+<!-- Swap the src with your real image path -->
+<img src="./image/Rectangle 75.png" alt="Accounting illustration" class="account-image img-fluid">
+</div>
+</div>
+
+
+<div class="col-md-6">
+<div class="account-card ">
+<div class="account-text">
+  <div class="heading">
+  <div class="line"></div>
+  <h2>Accounting</h2>
+  <div class="line"></div>
+</div>
+<p>Accounting is the systematic process of recording, classifying, summarizing, and interpreting financial transactions of a business. It provides essential information that helps stakeholders make informed decisions.</p>
+
+
+<h5 class="mt-3">Key Objectives of Accounting:</h5>
+<ul>
+<li>To maintain a complete record of financial transactions.</li>
+<li>To ascertain profit or loss of a business during a given period.</li>
+<li>To show the financial position of the business.</li>
+<li>To provide useful information for decision-making.</li>
+</ul>
+
+
+<!-- Optional CTA -->
+<div class="mt-3">
+<a href="#" class="btn learn-btn">Learn more</a>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</section>
+<!-- accounting end-->
+
+<!-- financial start -->
+ <section class="financial ">
+<div class="container-fluid">
+<div class="row finance-row g-4 align-items-center justify-content-center">
+
+
+
+
+<div class="col-md-6">
+<div class="finance-card ">
+<div class="finance-text">
+ <div class="heading">
+  <div class="line"></div>
+  <h2>FINANCE</h2>
+  <div class="line"></div>
+</div>
+      <p>Finance is the discipline that focuses on the management of money, investments, and other financial resources. It involves planning, raising, allocating, and monitoring funds to achieve organizational and individual goals efficiently.</p>
+
+ <h5 class="mt-3">Key Objectives of Finance:</h5>
+      <ul>
+        <li>To ensure adequate availability of funds for operations and growth.</li>
+        <li>To optimize the use of financial resources and maximize returns.</li>
+        <li>To maintain liquidity and financial stability of the business.</li>
+        <li>To support strategic decision-making through financial planning and analysis.</li>
+      </ul>
+
+
+<!-- Optional CTA -->
+<div class="mt-3">
+<a href="#" class="btn learn-btn">Learn more</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="finance-card text-center">
+<!-- Swap the src with your real image path -->
+<img src="./image/91024183-c111-46e6-b4f4-353ffa2c89d6-cover.png" alt="Accounting illustration" class="account-image img-fluid">
+</div>
+</div>
+
+
+</div>
+</div>
+</section>
+
+<!-- finacial end -->
+
+<!-- order management start -->
+<section class="order-management section_padding">
+<div class="container-fluid">
+<div class="row g-4 order-row justify-content-center">
+
+
+<div class="col-md-6">
+<div class="order-card text-center">
+<!-- Swap the src with your real image path -->
+<img src="./image/454eb562ac4122b3d6accbdb30fcd3dc.jpg" alt="Accounting illustration" class="account-image img-fluid">
+</div>
+</div>
+
+
+<div class="col-md-6">
+<div class="order-card ">
+<div class="order-text">
+   <div class="heading">
+  <div class="line"></div>
+  <h2>Order Management</h2>
+  <div class="line"></div>
+</div>
+
+<p>Order Management is the process of tracking, managing, 
+  and fulfilling customer orders from the point of purchase to delivery. 
+  It ensures smooth coordination between sales, inventory, and logistics to
+   provide a seamless customer experience.</p>
+<h5 class="mt-3">Key Objectives of Order Management:</h5>
+<ul>
+  <li>To streamline the order-to-delivery cycle efficiently.</li>
+  <li>To ensure accurate order processing and inventory management.</li>
+  <li>To enhance customer satisfaction through timely fulfillment.</li>
+  <li>To provide real-time visibility into order status and tracking.</li>
+</ul>
+
+
+
+
+<!-- Optional CTA -->
+<div class="mt-3">
+<a href="#" class="btn learn-btn">Learn more</a>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</section>
+
+<!-- order management end -->
+
+<!-- procurement start -->
+ 
+ <section class="procurement">
+<div class="container-fluid">
+<div class="row procurement-row g-4 align-items-center justify-content-center">
+
+
+
+
+<div class="col-md-6">
+<div class="procurement-card ">
+<div class="procurement-text">
+  <div class="heading">
+  <div class="line"></div>
+  <h2>Procurement</h2>
+  <div class="line"></div>
+</div>
+
+<p>Procurement is the systematic process of acquiring goods, services, or works from external sources to meet organizational needs. It involves identifying requirements, selecting suppliers, negotiating contracts, and ensuring timely delivery while maintaining cost efficiency and quality standards.</p>
+
+<h5 class="mt-3">Key Objectives of Procurement:</h5>
+<ul>
+  <li>To acquire the right goods and services at the best possible value.</li>
+  <li>To ensure timely availability of resources for smooth operations.</li>
+  <li>To maintain quality and compliance with organizational standards.</li>
+  <li>To build strong supplier relationships for long-term collaboration.</li>
+</ul>
+<!-- Optional CTA -->
+<div class="mt-3">
+<a href="#" class="btn learn-btn">Learn more</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="finance-card text-center">
+<!-- Swap the src with your real image path -->
+<img src="./image/64dba3352418d6a0f7fd6f6b_Upload products.webp" alt="Accounting illustration" class="account-image img-fluid">
+</div>
+</div>
+
+
+</div>
+</div>
+</section>
+
+
+<!-- procurement end -->
+
+<!-- inventory management start -->
+<section class="inventory-management section_padding">
+<div class="container-fluid">
+<div class="row g-4 order-row justify-content-center">
+
+
+<div class="col-md-6">
+<div class="inventory-card text-center">
+<!-- Swap the src with your real image path -->
+<img src="./image/d3a834e7495f1b7a4dd3958a1ae56b4e.jpg" alt="Accounting illustration" class="account-image img-fluid">
+</div>
+</div>
+
+
+<div class="col-md-6">
+<div class="inventory-card ">
+<div class="inventory-text">
+  <div class="heading">
+  <div class="line"></div>
+  <h2>Inventory Management</h2>
+  <div class="line"></div>
+</div>
+
+<p>Inventory Management is the systematic approach of sourcing, storing, 
+  and controlling a company’s stock of goods and materials. 
+  It helps maintain the right balance between supply and demand, 
+  ensuring products are available when needed while minimizing excess costs.</p>
+<h5 class="mt-3">Key Objectives of Inventory Management:</h5>
+<ul>
+  <li>To maintain optimal stock levels without overstocking or stockouts.</li>
+  <li>To ensure accurate tracking of goods across warehouses and storage.</li>
+  <li>To reduce holding costs and improve cash flow efficiency.</li>
+  <li>To provide real-time insights into inventory movement and availability.</li>
+</ul>
+<!-- Optional CTA -->
+<div class="mt-3">
+<a href="#" class="btn learn-btn">Learn more</a>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</section>
+
+<!-- inventory management end -->
+
+<!-- wearhouse management start -->
+
+ <section class="wearhouse">
+<div class="container-fluid">
+<div class="row wearhouse-row g-4 align-items-center justify-content-center">
+
+
+
+
+<div class="col-md-6">
+<div class="wearhouse-card ">
+<div class="wearhouse-text">
+  <div class="heading">
+  <div class="line"></div>
+  <h2>Warehouse Management</h2>
+  <div class="line"></div>
+</div>
+
+<p>Warehouse Management is the process of efficiently controlling the storage, movement, and handling of goods within a warehouse. It ensures that inventory is properly received, stored, tracked, and dispatched to meet customer and organizational requirements effectively.</p>
+
+<h5 class="mt-3">Key Objectives of Warehouse Management:</h5>
+<ul>
+  <li>To optimize space utilization and storage efficiency.</li>
+  <li>To ensure accurate tracking and management of inventory.</li>
+  <li>To enable timely picking, packing, and dispatch of goods.</li>
+  <li>To reduce operational costs while maintaining high service levels.</li>
+  <li>To improve overall supply chain efficiency through effective warehouse operations.</li>
+</ul>
+<!-- Optional CTA -->
+<div class="mt-3">
+<a href="#" class="btn learn-btn">Learn more</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class= "wearhouse-card text-center">
+<!-- Swap the src with your real image path -->
+<img src="./image/What_Is_Inventory_Management.avif" alt="Accounting illustration" class="account-image img-fluid">
+</div>
+</div>
+
+
+</div>
+</div>
+</section>
+
+
+<!-- wearhouse management end -->
+ <!-- project accounting start -->
+  <section class="project-accounting-management section_padding">
+<div class="container-fluid">
+<div class="row g-4 project-accounting-row justify-content-center">
+
+
+<div class="col-md-6">
+<div class="project-accounting-card text-center">
+<!-- Swap the src with your real image path -->
+<img src="./image/project_accounting_dashboard_with_portfolios_budget_slide01.jpg" alt="Accounting illustration" class="account-image img-fluid">
+</div>
+</div>
+
+
+<div class="col-md-6">
+<div class="project-accounting-card ">
+<div class="project-accounting-text">
+  <div class="heading">
+  <div class="line"></div>
+  <h2>Project Accounting</h2>
+  <div class="line"></div>
+</div>
+
+
+<p>Project Accounting is the specialized branch of accounting that tracks, manages, 
+  and analyzes the financial aspects of individual projects. 
+  It ensures that all costs, revenues, and resources related to a project 
+  are monitored to maintain profitability and achieve organizational goals.</p>
+<h5 class="mt-3">Key Objectives of Project Accounting:</h5>
+<ul>
+  <li>To monitor and control project-specific costs and revenues accurately.</li>
+  <li>To provide timely financial insights for better project decision-making.</li>
+  <li>To ensure compliance with budgets and contractual obligations.</li>
+  <li>To evaluate project performance and profitability effectively.</li>
+</ul>
+<!-- Optional CTA -->
+<div class="mt-3">
+<a href="#" class="btn learn-btn">Learn more</a>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</section>
+<!-- project accounting end -->
+
+<!-- crm  start -->
+<section class="crm">
+<div class="container-fluid">
+<div class="row crm-row g-4 align-items-center justify-content-center">
+
+
+
+
+<div class="col-md-6">
+<div class="crm-card ">
+<div class="crm-text">
+   <div class="heading">
+  <div class="line"></div>
+  <h2>CRM Management </h2>
+  <div class="line"></div>
+</div>
+
+<p>Customer Relationship Management (CRM) is the strategic approach of managing a company’s interactions and relationships with current and potential customers. It involves leveraging technology and processes to improve customer engagement, streamline sales, and enhance service delivery, ensuring long-term business growth and customer satisfaction.</p>
+
+<h5 class="mt-3">Key Objectives of CRM:</h5>
+<ul>
+  <li>To build and maintain strong customer relationships.</li>
+  <li>To centralize and streamline customer data for better decision-making.</li>
+  <li>To improve sales and marketing efficiency through automation.</li>
+  <li>To enhance customer service and support experiences.</li>
+  <li>To increase customer retention and drive business growth.</li>
+</ul>
+<!-- Optional CTA -->
+<div class="mt-3">
+<a href="#" class="btn learn-btn">Learn more</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class= "crm-card text-center">
+<!-- Swap the src with your real image path -->
+<img src="./image/custom-relationship-management-dashboard-ui-design-template-suitable-designing-application-for-android-and-ios-clean-style-app-mobile-free-vector.jpg" alt="Accounting illustration" class="account-image img-fluid">
+</div>
+</div>
+
+
+</div>
+</div>
+</section>
+
+<!-- crm end -->
+
+<!-- hr management start -->
+  <section class="hr-management section_padding">
+<div class="container-fluid">
+<div class="row g-4 hr-management-row justify-content-center">
+
+
+<div class="col-md-6">
+<div class="hr-management text-center">
+<!-- Swap the src with your real image path -->
+<img src="./image/70db78a8-3944-4ba4-9117-57c305265c00-cover (1).png" alt="Accounting illustration" class="account-image img-fluid">
+</div>
+</div>
+
+
+<div class="col-md-6">
+<div class="hr-management ">
+<div class="hr-management-text">
+     <div class="heading">
+  <div class="line"></div>
+  <h2>HR Management </h2>
+  <div class="line"></div>
+</div>
+
+<p>HR Management (Human Resource Management) is the strategic function that focuses on 
+  recruiting, developing, and retaining an organization’s workforce. 
+  It ensures that employees are effectively managed, motivated, and aligned with 
+  business objectives while fostering a positive and productive work environment.</p>
+
+<h5 class="mt-3">Key Objectives of HR Management:</h5>
+<ul>
+  <li>To attract, recruit, and retain skilled talent.</li>
+  <li>To enhance employee performance through training and development.</li>
+  <li>To ensure compliance with labor laws, policies, and ethical practices.</li>
+  <li>To promote employee engagement, satisfaction, and workplace culture.</li>
+  <li>To align workforce management with organizational goals.</li>
+</ul>
+<!-- Optional CTA -->
+<div class="mt-3">
+<a href="#" class="btn learn-btn">Learn more</a>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</section>
+<!-- hr management end -->
+
+<!-- customer service start -->
+
+
+ <section class="customer-service">
+<div class="container-fluid">
+<div class="row customer-service-row g-4 align-items-center justify-content-center">
+
+
+
+
+<div class="col-md-6">
+<div class="customer-service-card ">
+<div class="customer-service-text">
+    <div class="heading">
+  <div class="line"></div>
+  <h2>Customer Service </h2>
+  <div class="line"></div>
+</div>
+
+<p>Customer Service is the process of managing interactions with customers to ensure their needs are met efficiently and effectively. It plays a vital role in building trust, resolving issues, and enhancing customer satisfaction, which ultimately drives loyalty and long-term business success.</p>
+
+<h5 class="mt-3">Key Objectives of Customer Service:</h5>
+<ul>
+  <li>To provide quick and effective responses to customer queries and concerns.</li>
+  <li>To deliver consistent and personalized support across all channels.</li>
+  <li>To enhance customer satisfaction and build long-term relationships.</li>
+  <li>To resolve issues efficiently while maintaining service quality.</li>
+  <li>To contribute to business growth by fostering customer loyalty and trust.</li>
+</ul>
+<!-- Optional CTA -->
+<div class="mt-3">
+<a href="#" class="btn learn-btn">Learn more</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class= "customer-service-card text-center">
+<!-- Swap the src with your real image path -->
+<img src="./image/customer-service-dashboard.png" alt="Accounting illustration" class="account-image img-fluid">
+</div>
+</div>
+
+
+</div>
+</div>
+</section>
+
+<!-- customer service end -->
+
+<!-- bussiness intelligence start -->
+<section class="bussiness-intelligence section_padding">
+<div class="container-fluid">
+<div class="row g-4 bussiness-intelligence-row justify-content-center">
+
+
+<div class="col-md-6">
+<div class="bussiness-intelligence text-center mt-5">
+<!-- Swap the src with your real image path -->
+<img src="./image/AdobeStock_447703909.webp" alt="Accounting illustration" class="account-image img-fluid">
+</div>
+</div>
+
+
+<div class="col-md-6">
+<div class="bussiness-intelligence ">
+<div class="bussiness-intelligence-text">
+
+<p>Business Intelligence (BI) is the strategic process of collecting, analyzing, 
+  and transforming data into actionable insights to support informed decision-making. 
+  It enables organizations to track performance, identify trends, and optimize operations, 
+  ensuring sustainable growth and competitive advantage.</p>
+
+<h5 class="mt-3">Key Objectives of Business Intelligence:</h5>
+<ul>
+  <li>To collect and integrate data from diverse sources.</li>
+  <li>To analyze and visualize data for better understanding.</li>
+  <li>To provide actionable insights that drive strategic decisions.</li>
+  <li>To enhance operational efficiency and identify growth opportunities.</li>
+  <li>To support data-driven culture and organizational agility.</li>
+</ul>
+<!-- Optional CTA -->
+<div class="mt-3">
+<a href="#" class="btn learn-btn">Learn more</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- bussiness intelligence end -->
+
+<!-- plan start -->
+<section class="plan">
+<div class="container py-5">
+  <div class="row g-4 justify-content-center">
+
+    <!-- Recruit Basic -->
+    <div class="col-md-4">
+      <div class="pricing-card bg-white text-center active-plan h-100">
+        <h5 class="fw-bold">Recruit Basic</h5>
+        <p><span class="price">1000</span><small>/month</small></p>
+        <p class="text-muted">₹8000 billed yearly</p>
+        <p class="small">Get started with essential tools to manage your team efficiently. Ideal for small teams with fundamental needs.</p>
+        <ul class="list-unstyled text-start mt-3">
+          <li>✅ Access to core HR features</li>
+          <li>✅ Employee record management</li>
+          <li>✅ Basic reporting tools</li>
+          <li>✅ Manage up to 10 team members</li>
+          <li>❌ Track employee attendance</li>
+          <li>❌ Assign and monitor tasks</li>
+          <li>❌ Email support</li>
+          <li>❌ Simple onboarding process</li>
+          <li>❌ Designed user-focused interfaces</li>
+        </ul>
+        <button class="btn  btn-custom mt-3">Cancel</button>
+      </div>
+    </div>
+
+    <!-- Talent Pro -->
+    <div class="col-md-4">
+      <div class="pricing-card  text-white text-center active h-100">
+        <h5 class="fw-bold">Talent Pro <span class="save-badge">Save 27%</span></h5>
+        <p><span class="old-price text-white">3000</span> <span class="price">2500</span><small>/month </small></p>
+        <p class="text-muted">₹10000 billed yearly</p>
+        <p class="small">A comprehensive solution for growing teams, offering enhanced features to streamline HR processes.</p>
+        <ul class="list-unstyled text-start mt-3">
+          <li>✅ Access to core HR features</li>
+          <li>✅ Employee record management</li>
+          <li>✅ Basic reporting tools</li>
+          <li>✅ Manage up to 10 team members</li>
+          <li>✅ Track employee attendance</li>
+          <li>✅ Assign and monitor tasks</li>
+          <li>❌ Email support</li>
+          <li>❌ Simple onboarding process</li>
+          <li>❌ Designed user-focused interfaces</li>
+        </ul>
+        <button class="btn   btn-custom mt-3">Start 7-days Free Trial</button>
+      </div>
+    </div>
+
+    <!-- HR Master -->
+    <div class="col-md-4">
+      <div class="pricing-card bg-white text-center popular active-plan h-100">
+        <h5 class="fw-bold">HR Master</h5>
+        <p><span class="price">3500</span><small>/month</small></p>
+        <p class="text-muted">₹12000 billed yearly</p>
+        <p class="small">Maximize team performance with premium tools and full customization options, perfect for larger organizations.</p>
+        <ul class="list-unstyled text-start mt-3">
+          <li>✅ Access to core HR features</li>
+          <li>✅ Employee record management</li>
+          <li>✅ Basic reporting tools</li>
+          <li>✅ Manage up to 10 team members</li>
+          <li>✅ Track employee attendance</li>
+          <li>✅ Assign and monitor tasks</li>
+          <li>✅ Email support</li>
+          <li>✅ Simple onboarding process</li>
+          <li>✅ Designed user-focused interfaces</li>
+        </ul>
+        <button class="btn btn-custom mt-3">Start 7-days Free Trial</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</section>
+
+<!-- plan end -->
+ <!-- faq start-->
+
+<section class="faq-section">
+    <div class="container-fluid">
+ <div class="main-faq d-flex justify-content-between">
+        <div class="faq-question">
+            <h1 class="faq-title">Frequently Asked Questions</h1>
+            
+            <div class="faq-intro">
+                <p>Here are some common questions that you might have. If you don't find what you're looking for, please <a href="#">write to us</a> and we'll be happy to address your query!</p>
+            </div>
+            
+            <div class="accordion" id="faqAccordion">
+                <!-- Question 1 -->
+                <div class="accordion-item ">
+                    <h4 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        What is ERP software?
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-minus"></i>
+                        </button>
+                    </h4>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            ERP software, or Enterprise Resource Planning software, is a type of software used to integrate data and processes from multiple business areas into one system. It helps organizations manage their resources, 
+                            increase efficiency and productivity, and keep better track of their business operations. ERP software typically includes modules for areas such as finance, sales and marketing, customer relationship management, 
+                            supply chain management, human resources and more.
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Question 2 -->
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+What is CRM software?
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-minus"></i>
+                        </button>
+                    </h4>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                           
+CRM (Customer Relationship Management) is a technology or software system used by businesses to manage interactions and relationships with their current and potential customers.
+ It helps organizations centralize customer data from various sources, streamline processes in sales, marketing, and customer service, improve customer experiences, and ultimately
+  grow revenue. 
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Question 3 -->
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What are the component of a CRM system?
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-minus"></i>
+                        </button>
+                    </h4>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                           
+Key Components of CRM Process Every Clever System Should ...A CRM system's components include: operational functions like sales, marketing, and service automation; analytical tools for data analysis,
+ reporting, and forecasting; and data management for centralizing customer information and providing a unified view. Key features such as lead management, pipeline management, workflow automation, and 
+ omnichannel communication work together to manage customer interactions and improve business processes. 
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Question 4 -->
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                           What is the difference between ERP and CRM?
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-minus"></i>
+                        </button>
+                    </h4>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            ERP software, or Enterprise Resource Planning software, is a type of software used to integrate data and processes from multiple business areas into one system. 
+                            On the other hand, CRM, or Customer Relationship Management software, is a type of software used to manage customer relationships. It helps organizations manage
+                             customer data, track customer interactions, and provide better customer service.
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Question 5 -->
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            what type of business can benefit from using crm system?
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-minus"></i>
+                        </button>
+                    </h4>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                           Any business that interacts with customers can benefit from a CRM system, but especially those in retail, 
+                           financial services, healthcare, real estate, and B2B sales, as it helps manage customer data, track interactions,
+                            streamline sales and marketing, and improve overall customer satisfaction. Industries with a strong need to build 
+                            customer relationships, handle leads, manage appointments, and provide personalized service are prime candidates 
+                            for a CRM solution. 
+                        </div>
+                    </div>
+                </div>
+                <!-- Question 6 -->
+<div class="accordion-item">
+    <h4 class="accordion-header" id="headingSix">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            How long does it take to implement a CRM system?
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-minus"></i>
+        </button>
+    </h4>
+    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            Implementing a CRM system can take anywhere from a few weeks to over a year, with typical timelines ranging from 3 to 12 months...
+        </div>
+    </div>
+</div>
+
+<!-- Question 7 -->
+<div class="accordion-item">
+    <h4 class="accordion-header" id="headingSeven">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            What are the deployment options for ERP software?
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-minus"></i>
+        </button>
+    </h4>
+    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            The main deployment options for ERP software are On-Premise, Cloud, and Hybrid...
+        </div>
+    </div>
+</div>
+
+<!-- Question 8 -->
+<div class="accordion-item">
+    <h4 class="accordion-header" id="headingEight">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+            Is CRM software easy to use?
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-minus"></i>
+        </button>
+    </h4>
+    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            Yes, CRM software can be easy to learn, especially with a user-friendly interface...
+        </div>
+    </div>
+</div>
+
+<!-- Question 9 -->
+<div class="accordion-item">
+    <h4 class="accordion-header" id="headingNine">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            Is CRM software customizable?
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-minus"></i>
+        </button>
+    </h4>
+    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            Yes, CRM software is customizable, offering various ways to adapt pre-built platforms...
+        </div>
+    </div>
+</div>
+       
+            </div>
+            
+            <button class="show-more-btn" id="showMoreBtn">Show more FAQ's here</button>
+        </div>
+        
+        <div class="image-section ">
+            <div class="image-container ">
+                <img src="./image/CRM User Management Solution.jpeg"  >
+            </div>
+        </div>
+    </div>
+</div>
+</section>
 
     </main>
+    <footer>
+
+
+<!-- <section class="footer">
+    <div class="container-fluid">
+      <div class="row">
+       
+        <div class="col-md-3 mb-4">
+          <h4 class="fw-bold">JB</h4>
+          <div class="social-icons mb-3 d-flex">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fas fa-globe"></i></a>
+          </div>
+          <p class="fw-bold">Sales: +91 9038120150</p>
+        </div>
+
+     
+        <div class="col-md-3 mb-4">
+          <h6>Products</h6>
+          <a href="#">ERP</a>
+          <a href="#">MRP</a>
+          <a href="#">CRM</a>
+          <a href="#">Accounting and Finance</a>
+          <a href="#">Inventory Management</a>
+          <a href="#">Warehouse Management</a>
+          <a href="#">CRM and Marketing</a>
+          <a href="#">Human Resource Management</a>
+        </div>
+
+        
+        <div class="col-md-4 mb-4">
+          <h6>Use Cases</h6>
+          <div class="row">
+            <div class="col-6">
+              <a href="#">AR & AP</a>
+              <a href="#">Journal Entries</a>
+              <a href="#">Fixed Asset Accounting</a>
+              <a href="#">Budgeting and Forecasting</a>
+              <a href="#">Revenue Recognition</a>
+              <a href="#">Multi Channel Order Management</a>
+              <a href="#">Reserve Stock</a>
+            </div>
+            <div class="col-6">
+              <a href="#">Purchase Orders</a>
+              <a href="#">Barcode Generation and Scanning</a>
+              <a href="#">Lot, Batch, and Serial Tracking</a>
+              <a href="#">Multi Warehouse Management</a>
+              <a href="#">Project Costing</a>
+              <a href="#">Sales Pipeline Management</a>
+              <a href="#">Manufacturing Operations</a>
+            </div>
+          </div>
+        </div>
+
+     
+        <div class="col-md-2 mb-4">
+          <h6>Company</h6>
+          <a href="#">Careers</a>
+          <a href="#">Contact us</a>
+          <a href="#">Why JB</a>
+          <a href="#">About JB</a>
+        </div>
+      </div>
+    </div>
+    </section>
+  </footer> -->
+<footer>
+  <section class="footer">
+    <div class="container-fluid">
+      <div class="row">
+        
+        <!-- Left Section -->
+        <div class="col-lg-3 col-md-6 mb-4 text-center text-lg-start">
+          <h4 class="fw-bold">JB</h4>
+          <div class="social-icons mb-3 d-flex justify-content-center justify-content-lg-start">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fas fa-globe"></i></a>
+          </div>
+          <p class="fw-bold">Sales: +91 9038120150</p>
+        </div>
+
+        <!-- Products -->
+        <div class="col-lg-3 col-md-6 mb-4 text-center text-md-start">
+          <h6>Products</h6>
+          <a href="#">ERP</a>
+          <a href="#">MRP</a>
+          <a href="#">CRM</a>
+          <a href="#">Accounting and Finance</a>
+          <a href="#">Inventory Management</a>
+          <a href="#">Warehouse Management</a>
+          <a href="#">CRM and Marketing</a>
+          <a href="#">Human Resource Management</a>
+        </div>
+
+        <!-- Use Cases -->
+        <div class="col-lg-4 col-md-6 mb-4 text-center text-md-start">
+          <h6>Use Cases</h6>
+          <div class="row">
+            <div class="col-6">
+              <a href="#">AR & AP</a>
+              <a href="#">Journal Entries</a>
+              <a href="#">Fixed Asset Accounting</a>
+              <a href="#">Budgeting and Forecasting</a>
+              <a href="#">Revenue Recognition</a>
+              <a href="#">Multi Channel Order Management</a>
+              <a href="#">Reserve Stock</a>
+            </div>
+            <div class="col-6">
+              <a href="#">Purchase Orders</a>
+              <a href="#">Barcode Generation and Scanning</a>
+              <a href="#">Lot, Batch, and Serial Tracking</a>
+              <a href="#">Multi Warehouse Management</a>
+              <a href="#">Project Costing</a>
+              <a href="#">Sales Pipeline Management</a>
+              <a href="#">Manufacturing Operations</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Company -->
+        <div class="col-lg-2 col-md-6 mb-4 text-center text-md-start">
+          <h6>Company</h6>
+          <a href="#" class="ps-1">Careers</a>
+          <a href="#" class="ps-1">Contact us</a>
+          <a href="#" class="ps-1">Why JB</a>
+          <a href="#" class="ps-1">About JB</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</footer>
+
+
+
+
+
+    </footer>
+    
     <script src="./bootstrap/bootstrap-5.3.5-dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
